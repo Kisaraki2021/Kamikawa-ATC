@@ -75,7 +75,7 @@ else {
 //2段目
 switch (signal) {
 	case 1 : L0.render(renderer); break;
-	case 2 : L5.redner(renderer); break;
+	case 2 : L5.render(renderer); break;
 	case 3 : L10.redner(renderer); break;
 	case 4 : L15.render(renderer); break;
 	case 5 : L20.render(renderer); break;
