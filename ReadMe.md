@@ -33,6 +33,9 @@
 ## その他
 - 34にATS-Pが表示だけ存在しますが実装する気はありません。
 
+## Download
+https://github.com/Kisaraki2021/Kamikawa-ATS/archive/refs/heads/main.zip
+
 ## クレジット
 - ONKAWASOURI様の「R-ATS」を改造しています。
 
