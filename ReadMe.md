@@ -1,4 +1,4 @@
-# Kamikawa-ATS (素材) Ver2.0
+# Kamikawa-ATC
 
 [![McVer](https://img.shields.io/badge/Minecraft-1.12.2-brightgreen)](https://www.minecraft.net/ja-jp)
 [![ForgeVer](https://img.shields.io/badge/Forge-14.23.5.2859-lightgrey)](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html)
@@ -7,8 +7,8 @@
 [![ForgeVer](https://img.shields.io/badge/Forge-1.7.10%20--%2010.13.4.1614-lightgrey)](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.7.10.html)
 [![KPVer](https://img.shields.io/badge/KaizPatchX-1.6.4-informational)](https://github.com/Kai-Z-JP/KaizPatchX/releases)  
 
-## 動作環境
-・RealTrainMod1.12.2 or KaizPatch
+## 動作確認環境
+・KaizPatchX 1.6.2
 
 ## 使用方法
 **このパックはスクリプトを理解している人向けです。基本的に質問は受け付けません。**  
