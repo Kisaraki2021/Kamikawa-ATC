@@ -54,6 +54,15 @@ function init(par1, par2) {
 	ATS_B = renderer.registerParts(new Parts("ATS_B"));
 }
 
+function render(entity, pass, par3) {
+	if (pass == 0) {
+		render_Monitor_1(entity);
+	} 
+
+	if (pass >= 2) {
+		render_Monitor_1(entity);
+	}
+}
 
 //Kamikawa-ATS
 function render_Monitor_1(entity) {
@@ -69,7 +78,7 @@ function render_Monitor_1(entity) {
 	switch (signal) {
 		case 1: L0.render(renderer); break;
 		case 2: L5.render(renderer); break;
-		case 3: L10.redner(renderer); break;
+		case 3: L10.render(renderer); break;
 		case 4: L15.render(renderer); break;
 		case 5: L20.render(renderer); break;
 		case 6: L25.render(renderer); break;
@@ -81,7 +90,7 @@ function render_Monitor_1(entity) {
 		case 12: L55.render(renderer); break;
 		case 13: L60.render(renderer); break;
 		case 14: L65.render(renderer); break;
-		case 15: L70.redner(renderer); break;
+		case 15: L70.render(renderer); break;
 		case 16: L75.render(renderer); break;
 		case 17: L80.render(renderer); break;
 		case 18: L85.render(renderer); break;
@@ -89,7 +98,7 @@ function render_Monitor_1(entity) {
 		case 20: L95.render(renderer); break;
 		case 21: L100.render(renderer); break;
 		case 22: L105.render(renderer); break;
-		case 23: L110.redner(renderer); break;
+		case 23: L110.render(renderer); break;
 		case 24: L115.render(renderer); break;
 		case 25: L120.render(renderer); break;
 		case 26: L125.render(renderer); break;
